@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Entry Booking</title>
+  
+</head>
+<div>
+    <body style="background-color: pink;"></body>
+		<h1 align="center" style="color:blue; font-family: Lucida Calligraphy;">UP Mindanao Airline Express Online Booking</h1>
+        <h2>Passenger and Flight Details:</h2>
+        <p>Last Name:
+          <input type="text" placeholder="e.g Dela Cruz" id="last"></p>
+        <p>First Name:
+          <input type="text" placeholder="e.g Juan"id="first"></p>
+        <label for="gender">Gender:</label>
+        <input list="gen" name="gender">
+        <datalist id="gen" name="gender"> 
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </datalist>
+        <p>Email Address:
+          <input type="text" placeholder="e.g juan@gmail.com"id="email"></p>
+        <p>Origin: 
+            <input type="text" placeholder="e.g Malaysia" id="origin"></p>
+        <p>Destination: 
+            <input type="text" placeholder="e.g Philippines" id="dest"></p>
+        <p>Departure Date:
+            <input type="date" id="dep"></p>
+        <p>Return date: 
+            <input type="date" id="ret"></p>
+    	<button onclick="yes();">Submit</button>
+    </div>
+		<script src="Flight.js"> </script>
+	</body>
+</html>
